@@ -1,13 +1,12 @@
-# HASTI Invoice & Ledger to CSV Tools
+# HASTI Invoice to CSV Tool
 
-Two Python desktop apps for converting HASTI Petro Chemical invoices and ledger reports into Logisys-compatible CSV files.
+A Python desktop application for converting HASTI Petro Chemical DO invoice PDFs into Logisys-compatible CSV files.
 
-## Tools Included
+## Tool Included
 
 | App | Purpose |
 | --- | --- |
 | `HASTI_Invoice_to_CSV.py` | Parses DO invoice PDFs and generates purchase CSV |
-| `Ledger_to_CSV.py` | Converts ledger Excel reports with Job Register lookup |
 
 ## Tech Stack
 - Python 3.11+
@@ -44,34 +43,32 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-4. Run applications
+4. Run application
 ```bash
 python HASTI_Invoice_to_CSV.py
-python Ledger_to_CSV.py
 ```
 
 ---
 
-## Build Executables
+## Build Executable
 
 1. Install PyInstaller (Inside venv):
 ```bash
 pip install pyinstaller
 ```
 
-2. Build using included Spec files:
+2. Build using included Spec file:
 ```bash
 pyinstaller HASTI_Invoice_to_CSV.spec
-pyinstaller Ledger_to_CSV.spec
 ```
 
-3. Locate Executables:
-Both will be generated in the `dist/` folder.
+3. Locate Executable:
+The executable will be generated in the `dist/` folder.
 
 ---
 
 ## Notes
 - **ALWAYS use virtual environment for Python.**
 - Do not commit venv, node_modules, dist, or build folders.
-- Output CSVs are saved in `HASTI_Output/` (Invoice) or `Kale Output/` (Ledger).
+- Output CSVs are saved in `HASTI_Output/`.
 - Run and test before pushing.
