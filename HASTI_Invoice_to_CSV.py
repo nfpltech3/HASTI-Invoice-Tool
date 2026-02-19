@@ -274,7 +274,7 @@ def create_csv(all_details, output_path, log_callback):
 
             if row.get("is_transport"):
                 # --- Transport Charges _ FCM(E) Block ---
-                merged_row["Charge or GL Name"] = "Transport Charges _ FCM"
+                merged_row["Charge or GL Name"] = "Transport Charges _ FCM (E)"
                 merged_row["Tax Type"] = "Taxable"
                 merged_row["TaxGroup"] = "GSTIN"
                 merged_row["Avail Tax Credit"] = "100"

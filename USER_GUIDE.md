@@ -54,7 +54,7 @@ The app automatically detects the invoice type by searching for the phrase **"TR
 
 | Invoice Type | Charge Name | Tax Type | SAC Code | Avail Tax Credit |
 | :--- | :--- | :--- | :--- | :--- |
-| **Transport** (phrase found) | Transport Charges _ FCM | Taxable | 996793 | 100 |
+| **Transport** (phrase found) | Transport Charges _ FCM (E) | Taxable | 996793 | 100 |
 | **CFS** (phrase not found) | CFS CHARGES (1) | Pure Agent | 996711 | No |
 
 - **Transport invoices**: CGST and SGST are calculated at 6% each of Total Amount. WH Tax at 2%.
