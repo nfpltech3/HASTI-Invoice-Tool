@@ -273,8 +273,8 @@ def create_csv(all_details, output_path, log_callback):
             merged_row["Amount"] = row.get("Amount", "0")
 
             if row.get("is_transport"):
-                # --- Transport Charges _ FCM(E) Block ---
-                merged_row["Charge or GL Name"] = "Transport Charges _ FCM (E)"
+                merged_row["Charge or GL"] = "Transport Charges FFW _ FCM"
+                merged_row["Charge or GL Name"] = "Transport Charges FFW _ FCM"
                 merged_row["Tax Type"] = "Taxable"
                 merged_row["TaxGroup"] = "GSTIN"
                 merged_row["Avail Tax Credit"] = "100"

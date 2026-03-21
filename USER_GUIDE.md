@@ -51,7 +51,7 @@ The app scans the PDF text for the phrase **"TRANSPORTATION OF GOODS - ROAD"**.
 
 | Invoice Type | Detection Rule | Charge Name | Tax Type | Avail Tax Credit |
 | :--- | :--- | :--- | :--- | :--- |
-| **Transport** | "TRANSPORTATION..." found | `Transport Charges _ FCM (E)` | Taxable | 100 |
+| **Transport** | "TRANSPORTATION..." found | `Transport Charges FFW _ FCM` / `Transport Charges FFW _ FCM` | Taxable | 100 |
 | **CFS** | Phrase NOT found | `CFS CHARGES (1)` | Pure Agent | No |
 
 ### Tax Calculations
