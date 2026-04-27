@@ -210,7 +210,7 @@ def create_csv(all_details, output_path, log_callback):
         "Ref Type": "",
         "Start Date": "",
         "End Date": "",
-        "WH Tax Code": "194C",
+        "WH Tax Code": "1024C",
         "WH Tax Percentage": "2",
         "Round Off": "Yes",
         "CC Code": ""
